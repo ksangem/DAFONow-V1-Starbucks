@@ -29,9 +29,9 @@ export default function Sidebar() {
       <div className="sidebar-logo">
         <div className="sidebar-logo-mark">
           <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-            <rect width="28" height="28" rx="8" fill="#1E6B4E"/>
+            <rect width="28" height="28" rx="8" fill="#00338E"/>
             <path d="M8 9h4v10H8V9zm8 0h4v10h-4V9z" fill="white" opacity="0.9"/>
-            <path d="M12 12h4v4h-4v-4z" fill="#D4A574"/>
+            <path d="M12 12h4v4h-4v-4z" fill="#F7943E"/>
           </svg>
         </div>
         <div className="sidebar-logo-text">

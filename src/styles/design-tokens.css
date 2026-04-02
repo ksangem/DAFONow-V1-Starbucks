@@ -1,59 +1,60 @@
 /*
  * DAFONow Design System — Variation 1: Starbucks-Inspired
  *
- * Warm, welcoming, professional, calm
+ * Warm, welcoming, spacious, calm, premium
  * Inspired by Starbucks' approachable premium feel
- * Adapted for medical/enterprise context
+ * NOW USING: Official Cascade Dafo Brand Palette & Typography
  */
 
 :root {
-  /* === PRIMARY PALETTE === */
-  /* Warm forest green — trust, calm, medical confidence */
-  --color-primary: #1E6B4E;
-  --color-primary-light: #2A8C68;
-  --color-primary-lighter: #E8F5EE;
-  --color-primary-dark: #155239;
-  --color-primary-50: #F0FAF5;
+  /* === PRIMARY — DAFO Blue (PMS 287 C) === */
+  --color-primary: #00338E;
+  --color-primary-light: #0088CB;
+  --color-primary-lighter: #EBF0FA;
+  --color-primary-dark: #002266;
+  --color-primary-50: #F2F6FC;
 
-  /* === SECONDARY / ACCENT === */
-  --color-accent: #D4A574;        /* Warm copper — Starbucks warmth */
-  --color-accent-light: #F5EDE4;
-  --color-accent-dark: #B8875A;
+  /* === SECONDARY / ACCENT — Cascade Orange (PMS 715 C) === */
+  --color-accent: #F7943E;
+  --color-accent-light: #FEF3E7;
+  --color-accent-dark: #D97B1F;
 
-  /* === NEUTRALS — Warm undertone === */
+  /* === NEUTRALS — Slightly cool for medical feel === */
   --color-white: #FFFFFF;
-  --color-gray-25: #FDFCFB;
-  --color-gray-50: #FAF9F7;
-  --color-gray-100: #F5F3F0;
-  --color-gray-200: #E8E5E1;
-  --color-gray-300: #D4D0CB;
-  --color-gray-400: #A8A29E;
-  --color-gray-500: #78716C;
-  --color-gray-600: #57534E;
-  --color-gray-700: #44403C;
-  --color-gray-800: #292524;
-  --color-gray-900: #1C1917;
+  --color-gray-25: #FCFCFD;
+  --color-gray-50: #F5F7FA;
+  --color-gray-100: #EEF0F4;
+  --color-gray-200: #E0E4EA;
+  --color-gray-300: #CBD0D8;
+  --color-gray-400: #A8ABB0;
+  --color-gray-500: #78797D;
+  --color-gray-600: #58595B;
+  --color-gray-700: #44454A;
+  --color-gray-800: #1A1A2E;
+  --color-gray-900: #0F0F1A;
 
-  /* === SEMANTIC === */
-  --color-success: #16A34A;
-  --color-success-light: #DCFCE7;
-  --color-warning: #D97706;
-  --color-warning-light: #FEF3C7;
-  --color-error: #DC2626;
-  --color-error-light: #FEE2E2;
-  --color-info: #2563EB;
-  --color-info-light: #DBEAFE;
+  /* === SEMANTIC — From Cascade Brand Guide === */
+  --color-success: #007360;         /* Cascade Dark Green PMS 3295 C */
+  --color-success-light: #E6F3F0;
+  --color-success-accent: #72BF44;  /* Cascade Light Green PMS 360 C */
+  --color-warning: #F7943E;         /* Cascade Orange PMS 715 C */
+  --color-warning-light: #FEF3E7;
+  --color-error: #D71440;           /* Cascade Red PMS 199 C */
+  --color-error-light: #FDEAEE;
+  --color-info: #0088CB;            /* Cascade Blue */
+  --color-info-light: #E6F4FB;
 
-  /* === STATUS COLORS === */
-  --status-submitted: #2563EB;
-  --status-review: #D97706;
-  --status-manufacturing: #7C3AED;
-  --status-shipped: #0891B2;
-  --status-delivered: #16A34A;
+  /* === STATUS COLORS — Mapped to Cascade palette === */
+  --status-submitted: #0088CB;      /* Cascade Blue */
+  --status-review: #F7943E;         /* Cascade Orange */
+  --status-manufacturing: #403B78;  /* Cascade Purple */
+  --status-shipped: #0088CB;        /* Cascade Blue */
+  --status-delivered: #007360;      /* Cascade Dark Green */
 
-  /* === TYPOGRAPHY === */
-  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  --font-family-display: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  /* === TYPOGRAPHY — Source Sans 3 (Myriad Pro web substitute) === */
+  --font-family: 'Source Sans 3', 'Gill Sans', 'Trebuchet MS', sans-serif;
+  --font-family-display: 'Source Sans 3', 'Gill Sans', 'Trebuchet MS', sans-serif;
+  --font-family-serif: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
 
   --font-size-xs: 0.75rem;     /* 12px */
   --font-size-sm: 0.8125rem;   /* 13px */
@@ -64,6 +65,7 @@
   --font-size-2xl: 1.5rem;     /* 24px */
   --font-size-3xl: 1.875rem;   /* 30px */
 
+  --font-weight-light: 300;
   --font-weight-normal: 400;
   --font-weight-medium: 500;
   --font-weight-semibold: 600;
@@ -73,7 +75,7 @@
   --line-height-normal: 1.5;
   --line-height-relaxed: 1.625;
 
-  /* === SPACING === */
+  /* === SPACING — Generous Starbucks-style === */
   --space-1: 0.25rem;
   --space-2: 0.5rem;
   --space-3: 0.75rem;
@@ -95,12 +97,12 @@
   --border-color: var(--color-gray-200);
   --border-color-strong: var(--color-gray-300);
 
-  /* === SHADOWS — Soft, warm === */
-  --shadow-xs: 0 1px 2px rgba(28, 25, 23, 0.04);
-  --shadow-sm: 0 1px 3px rgba(28, 25, 23, 0.06), 0 1px 2px rgba(28, 25, 23, 0.04);
-  --shadow-md: 0 4px 6px -1px rgba(28, 25, 23, 0.06), 0 2px 4px -2px rgba(28, 25, 23, 0.04);
-  --shadow-lg: 0 10px 15px -3px rgba(28, 25, 23, 0.06), 0 4px 6px -4px rgba(28, 25, 23, 0.04);
-  --shadow-xl: 0 20px 25px -5px rgba(28, 25, 23, 0.08), 0 8px 10px -6px rgba(28, 25, 23, 0.04);
+  /* === SHADOWS — Soft, professional === */
+  --shadow-xs: 0 1px 2px rgba(0, 51, 142, 0.03);
+  --shadow-sm: 0 1px 3px rgba(0, 51, 142, 0.05), 0 1px 2px rgba(0, 51, 142, 0.03);
+  --shadow-md: 0 4px 6px -1px rgba(0, 51, 142, 0.05), 0 2px 4px -2px rgba(0, 51, 142, 0.03);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 51, 142, 0.05), 0 4px 6px -4px rgba(0, 51, 142, 0.03);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 51, 142, 0.07), 0 8px 10px -6px rgba(0, 51, 142, 0.03);
 
   /* === TRANSITIONS === */
   --transition-fast: 150ms ease;

@@ -178,24 +178,24 @@
 }
 
 .status-submitted {
-  background: #DBEAFE;
-  color: #1D4ED8;
+  background: #E6F4FB;
+  color: #0088CB;       /* Cascade Blue */
 }
 .status-review {
-  background: #FEF3C7;
-  color: #B45309;
+  background: #FEF3E7;
+  color: #D97B1F;       /* Cascade Orange dark */
 }
 .status-manufacturing {
-  background: #EDE9FE;
-  color: #6D28D9;
+  background: #EDEAF3;
+  color: #403B78;       /* Cascade Purple */
 }
 .status-shipped {
-  background: #CFFAFE;
-  color: #0E7490;
+  background: #E6F4FB;
+  color: #0088CB;       /* Cascade Blue */
 }
 .status-delivered {
-  background: #DCFCE7;
-  color: #15803D;
+  background: #E6F3F0;
+  color: #007360;       /* Cascade Dark Green */
 }
 
 /* Empty state */

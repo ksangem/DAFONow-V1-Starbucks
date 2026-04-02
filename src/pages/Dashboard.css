@@ -54,13 +54,13 @@
 }
 
 .stat-icon--tracking {
-  background: #CFFAFE;
-  color: #0E7490;
+  background: #E6F4FB;
+  color: #0088CB;       /* Cascade Blue */
 }
 
 .stat-icon--patients {
-  background: #EDE9FE;
-  color: #6D28D9;
+  background: #EDEAF3;
+  color: #403B78;       /* Cascade Purple */
 }
 
 /* Grid */
